@@ -1,8 +1,25 @@
 aid: phaidra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phaidra.png
 name: Phaidra
-description: 'Phaidra is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Phaidra builds AI agents for autonomous data center and industrial operations, using
+  reinforcement learning to control cooling, power, and workloads in mission-critical facilities. Its
+  products include Phaidra Prism, an LLM for data center operations that helps technicians identify,
+  prioritize, and resolve infrastructure issues, and Phaidra Factory, self-learning AI agents that
+  continuously monitor and optimize thermal reliability, energy efficiency, and IT capacity to maximize
+  tokens per watt across AI factories. Phaidra is an enterprise vendor with no public API or developer
+  program; this profile captures its public security, compliance, and web posture. Backed by Index
+  Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- Data Centers
+- Industrial Automation
+- Reinforcement Learning
+- Energy Efficiency
+- Autonomous Control
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.phaidra.ai/
+- type: Blog
+  url: https://www.phaidra.ai/blog
+- type: TermsOfService
+  url: https://www.phaidra.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.phaidra.ai/privacy-policy
+- type: Compliance
+  url: https://www.phaidra.ai/security
+- type: TrustCenter
+  url: security/phaidra-trust-center.yml
+- type: DomainSecurity
+  url: security/phaidra-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
