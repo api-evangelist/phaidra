@@ -32,6 +32,9 @@ description: 'Phaidra builds AI agents for autonomous data center and industrial
   program; this profile captures its public security, compliance, and web posture. Backed by Index
   Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Phaidra is an enterprise vendor with no public API or developer program; this profile captures its public security, compliance, and web posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
