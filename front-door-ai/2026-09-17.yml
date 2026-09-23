@@ -1,0 +1,31 @@
+# Front Door AI Index — phaidra — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: phaidra
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.phaidra.ai
+  final_host: www.phaidra.ai
+  ownership: own
+  owner: phaidra
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 32
+  host_score: 32
+  density: 68.52
+  words: 467
+  tiers:
+    agentic: 6
+    core: 26
+    model: 0
+  ambiguous: 14
+  top_terms:
+    AI: 22
+    agent: 11
+    AI agent: 6
+    LLMs: 2
+    artificial intelligence: 2
+    intelligence: 2
+    automation: 1
